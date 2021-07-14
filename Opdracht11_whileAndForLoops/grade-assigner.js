@@ -1,23 +1,18 @@
+
 function assignGrade(score) {
     if (score > 90) {
-        return "A";
+      return "A";
     } else if (score > 80) {
-        return "B";
+      return "B";
     } else if (score > 70) {
-        return "C";
+      return "C";
     } else if (score > 65) {
-        return "D";
+      return "D";
     } else {
-        return "E";
+      return "F";
     }
-}
-
-for (let i = assignGrade; i <= E; i++) {
-    // console.log(`Is ${i} even or odd?`);
-    if (i > 60, i < 100) {
-        console.log("For scoring 80 points, you get an C");
-    } else {
-        console.log("goodbye");
-    }
-}
-
+  }
+  
+  for (let i = 60; i <= 100; i++) {
+    console.log("Voor " + i + " punten, krijg je een " + assignGrade(i));
+  }
